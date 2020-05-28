@@ -1,2 +1,1 @@
-# capstone_project
-# capstone_project
+# Capstone Project: A Beer Recommender System

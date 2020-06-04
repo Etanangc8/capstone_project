@@ -1,6 +1,0 @@
-Links to larger datasets: 
-
-Beer Preference Dataset: https://drive.google.com/file/d/1RGTGGiE7xk9Di3ysoaotvSiwETeTDtn4/view?usp=sharing
-
-Dataset with Beer Ratings & Users
-https://github.com/datadiarist/Beer_Data

@@ -30,7 +30,7 @@ Recommender system used Sci-Kit Learn's Pairwise_distances & cosine_similarity
 ## Further Plans for This Project:
 - Create and use own dataset by creating my own survey
 - Implement a music genre recommender to the beer recommender 
-**For Example: Input: preferred music genre (“I am currently listening to jazz”)
+- **For Example: Input: preferred music genre (“I am currently listening to jazz”)
                Output: recommended beer style (i.e. Pale Ale, IPA, etc.)**
 
 

@@ -22,12 +22,12 @@ Used KNN to evaluate the model. Used KMeans data to feed into recommender system
 
 Recommender system used Sci-Kit Learn's Pairwise_distances & cosine_similarity
 
-## Next Steps
+## Next steps
 - Completion of the Flask Application for full functionality
 - Scrape my own data for more current data
 - Use the Surprise Library as the alternative to Pairwise distribution & Cosine Similarity, for the recommender. For further documentation [Surprise Library](http://surpriselib.com/)
 
-## Further Plans for This Project:
+## Further plans for this project:
 - Create and use own dataset by creating my own survey
 - Implement a music genre recommender to the beer recommender 
 - **For Example: Input: preferred music genre (“I am currently listening to jazz”)

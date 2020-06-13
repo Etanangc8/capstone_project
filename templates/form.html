@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Beer Recommender</title>
+	<center><title>How About a Beer?</title>
+	<h1>How About A Beer?</h1>
+	<h3>Enter a Beer Style (Ex. IPA, Pils, Hefeweizen, etc.)</h3>
+	<h4>We'll Recommend 5 Beers You May Want to Try Based on The Beer Style Entered</4>
 </head>
 <body>
 	<form action="/submit">
 		<p>
-			<label for="review_overall">Overall Rating</label><br>
-			<input type="number" name="review_overall">
+			<label for="review_overall">Beer Style</label><br>
+			<!--modified from www.w3schools.com/-->
+			<textarea type="string" name="review_overall"></textarea>
+			<p><button type="submit">Submit</button></p>
 		</p>
 		<p>
-			<label for="review_aroma">Rate Aroma</label><br>
-			<input type="number" name="review_aroma">
-		</p>		
-		<p>
+				
+	<!--<p>
 			<label for="review_appearance">Rate Appearance</label><br>
 			<input type="number" name="review_appearance">
 		</p>
@@ -24,8 +27,8 @@
 		<p>
 			<label for="review_taste">Rate Taste</label><br>
 			<input type="number" name="review_taste">
-		</p>
-		<p><button type="submit">Submit</button></p>
+		</p> 
+		<p><button type="submit">Submit</button></p>--> </center>
 	</form>
 </body>
 </html>

@@ -32,7 +32,7 @@ beer_style = df['beer_style']
 def recommender(search, recommender_df, itemlist=beer_style):
 #     search = search.lower()
 #     itemlist = [beer.lower() for beer in itemlist]    
-#   beers = km_df[km_df['beer_style'].str.contains(q)]['beer_style']
+   beers = km_df[km_df['beer_style'].str.contains(q)]['beer_style']
 #     beer_style = km_df['beer_style']
     # beerlist = []
     # for beer in beers:

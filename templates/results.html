@@ -5,10 +5,11 @@
 		<h1>We Recommend That You Give These Beers A Try!</h1>
 </head>
 <body>
-<h2> 1. {{pred1}} <h2>
-<h2> 2. {{pred2}} <h2>
-<h2> 3. {{pred3}} <h2>
-<h2> 4. {{pred4}} <h2>	
-<h2> 5. {{pred5}} <h2>	
+{% for beer, recommendations in beer_dic.items() %}
+<h2>{{beer}}</h2>
+{% for item in recommendations %}
+<ol>{{item}}</ol>
+{%endfor%}
+{%endfor%}
 </body>
 </html></center>

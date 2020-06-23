@@ -27,7 +27,6 @@ KMeans and DBSCAN were not the best clustering methods for this dataset. Even af
 
 ## Next Steps
 - Try other clustering methods to see if they will prove success. 
-- Completion of the Flask Application for full functionality
 - Scrape my own data for more current data
 - Use the Surprise Library as the alternative to Pairwise distribution & Cosine Similarity, for the recommender. For further documentation [Surprise Library](http://surpriselib.com/)
 
